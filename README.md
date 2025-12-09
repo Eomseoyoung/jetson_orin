@@ -12,3 +12,7 @@
         --onnx=rail.onnx \
         --saveEngine=rail_fp16.plan \
         --fp16
+
+> ### jetson 가속화 명령
+>       sudo nvpmodel -m 0
+>       sudo jetson_clocks
